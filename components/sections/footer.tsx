@@ -297,7 +297,7 @@ export function Footer() {
               </h4>
               <div className="flex items-center gap-3 flex-wrap">
                 <a 
-                  href="https://www.facebook.com" 
+                  href="https://www.facebook.com/mehai.germono" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="inline-flex items-center justify-center h-11 w-11 rounded-full bg-white/10 border-2 border-white/20 hover:bg-white/20 hover:border-white/40 transition-all hover:scale-110"
@@ -306,7 +306,7 @@ export function Footer() {
                   <Facebook className="w-5 h-5 text-white" />
                 </a>
                 <a 
-                  href="https://www.instagram.com" 
+                  href="https://www.instagram.com/kluv3rly/" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="inline-flex items-center justify-center h-11 w-11 rounded-full bg-white/10 border-2 border-white/20 hover:bg-white/20 hover:border-white/40 transition-all hover:scale-110"
@@ -315,7 +315,7 @@ export function Footer() {
                   <Instagram className="w-5 h-5 text-white" />
                 </a>
                 <a 
-                  href="https://www.tiktok.com" 
+                  href="https://www.tiktok.com/@kluvmeya?" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="inline-flex items-center justify-center h-11 w-11 rounded-full bg-white/10 border-2 border-white/20 hover:bg-white/20 hover:border-white/40 transition-all hover:scale-110"
@@ -323,15 +323,7 @@ export function Footer() {
                 >
                   <Music2 className="w-5 h-5 text-white" />
                 </a>
-                <a 
-                  href="https://www.twitter.com" 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="inline-flex items-center justify-center h-11 w-11 rounded-full bg-white/10 border-2 border-white/20 hover:bg-white/20 hover:border-white/40 transition-all hover:scale-110"
-                  aria-label="Twitter"
-                >
-                  <Twitter className="w-5 h-5 text-white" />
-                </a>
+
               </div>
             </div>
 

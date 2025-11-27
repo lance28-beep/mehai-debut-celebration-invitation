@@ -8,8 +8,6 @@ import { Great_Vibes, Inter } from "next/font/google"
 const greatVibes = Great_Vibes({ subsets: ["latin"], weight: "400" })
 const inter = Inter({ subsets: ["latin"], weight: ["300", "400", "500", "600"] })
 
-const eventPalette = ["#C0C0C0", "#808080", "#FFB6C1"]
-
 export function Details() {
   const [copiedItems, setCopiedItems] = useState<Set<string>>(new Set())
 
@@ -231,15 +229,14 @@ export function Details() {
                 </li>
                 <li>Gentlemen: {siteConfig.dressCode.guests.gentlemen}.</li>
               </ul>
-              <div className="flex gap-2 flex-wrap">
-                {eventPalette.map((color) => (
-                  <span
-                    key={color}
-                    className="h-9 w-9 sm:h-10 sm:w-10 rounded-full border border-white/40 shadow-[0_6px_18px_rgba(10,16,34,0.35)]"
-                    style={{ backgroundColor: color }}
-                    title={color}
-                  />
-                ))}
+              <div className="relative w-full rounded-2xl overflow-hidden border border-white/20 shadow-[0_8px_24px_rgba(10,16,34,0.4)]">
+                <Image
+                  src="/Details/attire.png"
+                  alt="Attire Color Palette Guide"
+                  width={800}
+                  height={400}
+                  className="w-full h-auto object-cover"
+                />
               </div>
             </div>
 
